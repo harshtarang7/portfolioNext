@@ -18,7 +18,7 @@ export default function HeroSection() {
         className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className=" text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-pink-600">Hi There,</h1>
           <h1 className="text-white lg:text-6xl text-4xl sm:text-5xl  font-bold ">
-           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I'm </span> 
+           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">I&apos;m </span> 
             
            <TypeAnimation
       sequence={[
