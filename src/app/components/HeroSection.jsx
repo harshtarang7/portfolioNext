@@ -2,7 +2,7 @@
 import React from "react";
 import Image from'next/image'
 import {motion} from 'framer-motion'
-import resume from '../../../public/Resume.pdf'
+
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -42,7 +42,7 @@ export default function HeroSection() {
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-pink-500 hover:bg-slate-200 text-white">Hire Me</button>
             {/* to download cv */}
-            <a href={resume} download="resume">
+            <a >
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to bg-pink-400 hover:bg-slate-800 text-white  mt-3 "> 
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span> </button>
             </a>

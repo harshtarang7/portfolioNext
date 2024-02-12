@@ -1,17 +1,26 @@
 module.exports = {
-    webpack: (config) => {
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
       config.module.rules.push({
         test: /\.(pdf)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              publicPath: '/_next',
-              name: 'static/media/[name].[hash].[ext]',
-            },
+            loader: 'raw-loader',
           },
         ],
       });
-      return config;
+    }
+
+    return config;
+  },
+};
+
+  module.exports = {
+    // Add your other Next.js configuration options here
+    exportPathMap: async function () {
+      return {
+        '/': { page: '/' },
+        // Add other routes if needed
+      };
     },
   };
