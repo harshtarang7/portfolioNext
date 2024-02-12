@@ -71,7 +71,7 @@ export default function AboutSection() {
             <div className="text-white">
                 <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
                     <div>
-                        <Image src={require("../../../public/about.jpg")} width={500} height={400}/>
+                        <Image src={require("../../../public/about.jpg")} alt="About Me" width={500} height={400}/>
                     </div>
 
                     <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
