@@ -57,6 +57,7 @@ export default function HeroSection() {
             <Image src={require('../../../public/tarangHarsh.png')}
              width={240} 
              height={250} 
+             alt="mypic"
              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 drop-shadow-[0_0px_15px_rgba(173,216,240,0.2)]"
              />
             </div>
